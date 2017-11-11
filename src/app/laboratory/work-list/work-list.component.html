@@ -1,0 +1,25 @@
+<div class="container-fluid work-list">
+  <div class="row">
+    <div class="col-md-12 table-wrapper">
+      <h3>Lista de Trabalho</h3>
+      <div class="work-list-table">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Código de barras</th>
+              <th>Estado</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor='let sample of samples'>
+              <td>{{sample.id}}</td>
+              <td>{{sample.barCode}}</td>
+              <td>{{sample.state}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>

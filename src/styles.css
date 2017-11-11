@@ -1,1 +1,26 @@
-/* You can add global styles to this file, and also import other style files */
+.color-primary-0 { color: #1A63FF }
+.color-primary-1 { color: #ADC7FF }
+.color-primary-2 { color: #7FA8FF }
+.color-primary-3 { color: #002E91 }
+.color-primary-4 { color: #00246F }
+
+
+html{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+body{
+    background-color: #ADC7FF;
+    height: 100%;
+    width: 100%;
+    color: #f9f9f9;
+}
+
+app-laboratory{
+    display: flex;
+    height: 100%;
+}

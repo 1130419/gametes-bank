@@ -1,0 +1,39 @@
+.left-bar {
+  width: 225px;
+  padding-top: 20px;
+  display: inline-block;
+  height: 100%;
+  background-color: #7FA8FF;
+  box-shadow: 5px 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.left-bar.collapsed{
+    width: 35px;
+}
+
+.app-name {
+  margin-bottom: 20px;
+  position: relative;
+  font-size: 25px;
+}
+
+.app-name .glyphicon {
+  position: absolute;
+  right: 8px;
+  top: -12px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.img-circle {
+  margin: 0 72px;
+}
+
+.actions-list {
+  margin: 20px 0;
+}
+
+.actions-list .action {
+  margin: 10px 0;
+  cursor: pointer;
+}

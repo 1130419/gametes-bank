@@ -1,0 +1,22 @@
+.work-list-table{
+    background-color: #7FA8FF;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.work-list-table .table {
+    margin: 0px;
+}
+
+.work-list, 
+.work-list .row, 
+.work-list .table-wrapper, 
+.work-list .table-wrapper .work-list-table {
+    height: 100%;
+}
+
+.table-wrapper{
+    display: flex;
+    flex-direction: column;
+}

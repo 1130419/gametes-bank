@@ -1,0 +1,20 @@
+<div class="left-bar">
+  <div class="text-center app-name">{{applicationName}}
+    <span class="glyphicon glyphicon-remove pull-right" (click)="menuClickHandler($event)"></span>
+  </div>
+  
+  <img src="http://design.cs.iastate.edu/img/people/blank.png" height="80px" width="80px" class="img-circle">
+
+  <div class='actions-list'>
+    <div *ngFor='let action of actions' class="action text-center" (click)="navigate(action.route)">
+      {{action.description}}
+    </div>
+  </div>
+
+</div>
+
+<div class="left-bar collapsed hidden">
+    <div class="app-name">
+        <span class="glyphicon glyphicon-menu-hamburger" (click)="menuClickHandler($event)"></span>
+      </div>
+</div>
